@@ -1,0 +1,15 @@
+package SchoolManager;
+
+import SchoolManager.UI.SAMLandingPage;
+import javafx.application.Application;
+
+public class SAMApplicationLauncher {
+    public static void main(String[] args) {
+        // Set JFoenix properties
+        System.setProperty("prism.lcdtext", "false");
+        System.setProperty("prism.text", "t2k");
+        
+        // Launch the application
+        Application.launch(SAMLandingPage.class, args);
+    }
+}
